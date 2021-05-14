@@ -33,7 +33,7 @@ export function loadLists() {
       },
       { 
         title: 'Fazendo', 
-        creatable: false,
+        creatable: true,
         cards: [
           {
             id: 6,
@@ -44,7 +44,7 @@ export function loadLists() {
       },
       { 
         title: 'Pausado', 
-        creatable: false,
+        creatable: true,
         cards: [
           {
             id: 7,
@@ -65,7 +65,7 @@ export function loadLists() {
       },
       { 
         title: 'Concluído', 
-        creatable: false,
+        creatable: true,
         done: true,
         cards: [
           {
